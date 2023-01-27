@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.3" >
+	<properties>
+		<name>Feature: Prepared Enhancement</name>
+		<version>1.0</version>
+		<loadorder>50</loadorder>
+		<description>
+			<text>Enhancing the spell preparation</text>
+			<author>Zarestia</author>
+		</description>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+	</properties>
+
+	<announcement text="5E Prepared Enhancement - v1.0 by Zarestia" font="emotefont" />
+
+	<base>
+		<includefile source="campaign/record_power.xml" />
+		<includefile source="campaign/template_char.xml" />
+	</base>
+</root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+    <template name="cycler_preparedmod">
+        <button_stringcycler>
+            <anchored width="30" height="20" />
+            <parameters>
+                <defaultlabelres>dash</defaultlabelres>
+                <labelsres>str|dex|con|int|wis|cha|prof</labelsres>
+                <values>strength|dexterity|constitution|intelligence|wisdom|charisma|prf</values>
+            </parameters>
+        </button_stringcycler>
+    </template>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="power_item_header" merge="join">
+		<script file="campaign/scripts/prepared_enhancement.lua" />
+		<sheetdata>
+			<cycler_preparedmod name="preparedmod" insertbefore="preparedcheck">
+				<anchored>
+					<top offset="2" />
+					<left parent="leftanchor" anchor="right" relation="relative" offset="0" />
+				</anchored>
+				<script>
+					function onValueChanged()
+						window.cyclerChanged();
+					end
+				</script>
+			</cycler_preparedmod>
+
+			<basicnumber name="prepared">
+				<anchored width="30" height="20">
+					<top offset="2" />
+					<left parent="leftanchor" anchor="right" relation="relative" offset="10" />
+				</anchored>
+				<script>
+					function onVisibilityChanged()
+						window.cyclerVisible(self.isVisible());
+					end
+				</script>
+			</basicnumber>
+		</sheetdata>
+	</windowclass>
+</root>
