@@ -19,6 +19,7 @@
 						window.cyclerChanged();
 					end
 				</script>
+				<invisible />
 			</cycler_preparedmod>
 
 			<basicnumber name="prepared">
