@@ -3,7 +3,7 @@
 <root version="3.3" >
 	<properties>
 		<name>Feature: Prepared Enhancement</name>
-		<version>1.0</version>
+		<version>1.1</version>
 		<loadorder>50</loadorder>
 		<description>
 			<text>Enhancing the spell preparation</text>
@@ -14,7 +14,7 @@
 		</ruleset>
 	</properties>
 
-	<announcement text="5E Prepared Enhancement - v1.0-patch1 by Zarestia" font="emotefont" />
+	<announcement text="5E Prepared Enhancement - v1.1 by Zarestia" font="emotefont" />
 
 	<base>
 		<includefile source="campaign/record_power.xml" />
